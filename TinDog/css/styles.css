@@ -1,0 +1,192 @@
+#title {
+    background-color: #ff4c68;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: white;
+    
+}
+
+h2 {
+    font-family: "Montserrat";
+    line-height: 1.5;
+    font-size: 2.5rem;
+}
+
+h3 {
+    font-weight: bold;
+    font-family: "Montserrat";
+}
+
+p {
+    color: gray;
+}
+
+.container-fluid {
+    padding: 3% 12% 8% 12%;
+}
+
+.navbar-brand {
+    font-family:'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding-left: 0%;
+}
+
+.btn {
+    margin-right: 20px;
+}
+
+.navbar {
+    font-size: 1.5rem;
+    padding-bottom: 4.5rem ;
+}
+
+#dog1 {
+    transform: rotate(25deg);
+    padding-left: 1rem;  
+    padding-bottom: rem;
+    top: 120px;
+    position:absolute;
+    right: 17rem;
+    z-index: 1;
+    padding-top: 2rem;
+    height: 90%;
+    width: 22%;
+    
+   
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+#features {
+    margin: auto;
+    text-align: center;
+    width: 80%;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+   
+
+}
+
+.feature {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 20px 0 20px 0;
+  }
+
+.icon {
+    font-size: 4rem;
+    padding: 10px 0 10px 0;
+    color: #ff4c68;
+}
+
+.icon:hover {
+    color: #cc1530;
+}
+
+.feature p {
+    width: 70%;
+}
+
+
+/* Testimonials */
+
+#testimonials {
+    
+    text-align: center;
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+.testimonial-image {
+    width: 15%;
+    border-radius: 100%;
+    margin: 1.5rem;
+}
+
+#press {
+    background-color: #ff4c68;
+    text-align: center;
+    padding-bottom: 2.5rem;
+}
+
+.press-icon {
+    width: 15%;
+    margin: 0 1.5rem 1.5rem 1.5rem;
+}
+
+.carousel-item {
+
+    padding: 7% 15%;
+}
+
+#pricing {
+    text-align: center;
+    padding: 50px 5% 50px 5%;
+}
+
+ .pricing-col {
+    padding: 0 2rem 2rem 2rem;
+    
+ }
+
+ .pricing-p {
+    padding-bottom: 2rem;
+ }
+
+ .dog-row {
+    height: 100%;
+ }
+
+@media (max-width: 1028px) {
+
+    #title {
+        text-align: center;
+    }
+
+
+    #dog1 {
+        position: static;
+        transform: rotate(0);
+        height: 100%;
+        width: 100%;
+    }
+}
+
+#cta  {
+    background-color: #ff4c68;
+    color: #fff;
+    align-items: center;
+    text-align: center;
+    padding: 5%;
+    
+}
+
+#cta h3 {
+    padding-bottom: 3rem;
+}
+
+#footer {
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+    
+}
+
+.ikonice {
+    padding: 25px;
+    font-size: 1.5rem;
+    
+}
